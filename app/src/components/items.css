@@ -1,0 +1,28 @@
+.item-card img {
+    width: 20px;
+    height: auto;
+}
+
+.item-card{
+    margin-top: 2vh;
+    padding: 15px 15px 15px 15px;
+    border-radius: 10px;
+    animation-name: none;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    background-color: transparent;
+    color: #3CB9FC;
+    font-size: 1em;
+    font-weight: 900;
+    letter-spacing: 1px;
+    border: 2px solid #3CB9FC;
+    transition: 0.3s;
+    transition-delay: 0.2s;
+}
+.item-card:hover{
+  transform: scale(1.01, 1.01);
+  border-radius: 15px;
+  /* background-color: #06FF00; */
+  /* color: white; */
+  box-shadow: 0 0 50px #3CB9FC;
+}
