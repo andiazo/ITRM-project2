@@ -3,6 +3,10 @@
     height: auto;
 }
 
+.item-card h3 {
+    font-weight: bold;
+}
+
 .item-card{
     margin-top: 2vh;
     padding: 15px 15px 15px 15px;
@@ -11,18 +15,26 @@
     animation-duration: 10s;
     animation-iteration-count: infinite;
     background-color: transparent;
-    color: #3CB9FC;
-    font-size: 1em;
-    font-weight: 900;
+    color: white;
+    font-size: 1.1em;
     letter-spacing: 1px;
-    border: 2px solid #3CB9FC;
+    border: 2px solid aqua;
     transition: 0.3s;
     transition-delay: 0.2s;
 }
 .item-card:hover{
   transform: scale(1.01, 1.01);
   border-radius: 15px;
-  /* background-color: #06FF00; */
-  /* color: white; */
-  box-shadow: 0 0 50px #3CB9FC;
+  box-shadow: 0 0 50px aqua;
+}
+
+.item-card button {
+    background-color: aqua;
+    color: white;
+}
+
+.item-card button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: aqua;
 }

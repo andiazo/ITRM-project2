@@ -1,7 +1,10 @@
-.navbar {
-    background-color: #0E185E;
+.navbar .link {
+    color: aqua;
 }
 
-.link {
-    color: white;
+.navbar .link:hover{
+    color: black;
+    background-color: aqua;
+    transform: scale(1.01, 1.01);
+    box-shadow: 0 0 50px #3CB9FC;
 }

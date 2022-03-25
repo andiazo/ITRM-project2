@@ -9,6 +9,7 @@ class ItemCard extends React.Component {
                 <h3>{this.props.item.title}</h3>
                 <p>{this.props.item.description}</p>
                 <p className='price'>{this.props.item.price}</p>
+                <button>Buy</button>
             </div>
         )
     }
